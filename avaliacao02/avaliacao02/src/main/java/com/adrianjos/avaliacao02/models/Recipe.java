@@ -1,13 +1,11 @@
 package com.adrianjos.avaliacao02.models;
 
-import java.util.ArrayList;
-
-public class Request {
+public class Recipe {
 
     private String strMeal;
     private String strInstructions;
 
-    public Request(String strMeal, String strInstructions) {
+    public Recipe(String strMeal, String strInstructions) {
         this.strMeal = strMeal;
         this.strInstructions = strInstructions;
     }
